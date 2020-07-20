@@ -13,7 +13,7 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 ### 2020-07
 
-- [七月第三周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-07-W1.md)
+- [七月第三周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-07-W3.md)
 
 ### 2020-07-20
 
