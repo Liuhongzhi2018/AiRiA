@@ -4,7 +4,8 @@
 <img src='pic.jpg'>
 </p>
 
-## 中国科学院自动化研究所南京人工智能芯片创新研究院（Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chinese Academy of Sciences）
+## 中国科学院自动化研究所南京人工智能芯片创新研究院
+(Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chinese Academy of Sciences)
 
 [主页](www.airia.cn/)
 
