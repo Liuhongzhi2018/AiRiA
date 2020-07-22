@@ -15,9 +15,14 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 - [七月第三周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-07-W3.md)
 
+### 2020-07-22
+
+- mobilenetV2_SSD训练测试
+
 ### 2020-07-20
 
 - [MobileNet从V1到V3](https://zhuanlan.zhihu.com/p/70703846)
+- [MobilenetV2 TensorFlow 代码解读](https://zhuanlan.zhihu.com/p/51608073)
 
 ### 2020-07-15
 
