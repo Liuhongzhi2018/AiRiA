@@ -20,6 +20,7 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 - 调研数据增强方式(主要MobileNetV2/SSD)
 - 模型结构可视化Netron使用 [online](https://lutzroeder.github.io/netron/), [code](https://github.com/lutzroeder/Netron), [blog](https://www.jianshu.com/p/2d1291d69a54)
+- 编写代码修改预训练权重的网络层，对字典重命名 [code](https://github.com/Liuhongzhi2018/AiRiA/blob/master/Source/rename_model.py)
 
 
 ### 2020-07-22
