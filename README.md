@@ -15,6 +15,13 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 - [七月第三周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-07-W3.md)
 
+
+### 2020-07-23
+
+- 调研数据增强方式(主要SSD)
+- 模型结构可视化Netron使用[code](https://github.com/lutzroeder/Netron),[blog](https://www.jianshu.com/p/2d1291d69a54)
+
+
 ### 2020-07-22
 
 - mobilenetV2_SSD训练测试
