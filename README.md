@@ -18,8 +18,8 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 ### 2020-07-23
 
-- 调研数据增强方式(主要SSD)
-- 模型结构可视化Netron使用[code](https://github.com/lutzroeder/Netron),[blog](https://www.jianshu.com/p/2d1291d69a54)
+- 调研数据增强方式(主要MobileNetV2/SSD)
+- 模型结构可视化Netron使用 [online](https://lutzroeder.github.io/netron/), [code](https://github.com/lutzroeder/Netron), [blog](https://www.jianshu.com/p/2d1291d69a54)
 
 
 ### 2020-07-22
