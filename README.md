@@ -16,6 +16,14 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 - [七月第三周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-07-W3.md)
 
 
+
+### 2020-07-24
+
+- 修改MobileNetV2_SSD代码，更新学习率设置lr\_conf step=[60,120]；
+- 修改pretrained model权重的字典Key值，保留backbone和extra layers网络参数；
+- 继续研究学习Airiacvlib框架。
+
+
 ### 2020-07-23
 
 - 调研数据增强方式(主要MobileNetV2/SSD)
