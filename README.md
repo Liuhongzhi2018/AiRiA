@@ -20,7 +20,7 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 ### 2020-07-26
 
-- 更改学习率策略[60,120],epoch 200测试结果mAP达到0.177；
+- 更改学习率策略[60,120]，epoch 200测试结果 mAP 达到0.177；
 - 网络结构增加loc layers预训练层参数，采用相同的更改后的学习率，epoch 200测试结果达到0.179,指标提升；
 - 整理AiriaCVLib框架的文件结构。
 
