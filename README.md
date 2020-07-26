@@ -16,6 +16,13 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 - [七月第三周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-07-W3.md)
 
 
+### 2020-07-26
+
+- 更改学习率策略[60,120],epoch 200测试结果mAP达到0.177；
+- 网络结构增加loc layers预训练层参数，采用相同的更改后的学习率，epoch 200测试结果达到0.179,指标提升；
+- 整理AiriaCVLib框架的文件结构。
+
+
 ### 2020-07-25
 
 - ECCV workshop AIM2020 image challenges [Extreme Inpainting: Track 2 Semantic Guidance](https://competitions.codalab.org/competitions/24676#results) 和 [Real Super-Resolution: Track 2 Upscaling x3](https://competitions.codalab.org/competitions/24681#results)。经验：网络深度，模型融合，数据增强。在SR任务上如何切分图像块(eg. 48 x 48)进行data preprocessing；
