@@ -17,6 +17,16 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 - [七月第四周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-07-W4.md)
 
 
+### 2020-07-28
+
+- 更改学习率策略[90,120,180]，epoch 156测试结果 mAP 达到0.183；
+- Headpw检测头问题没法直接训练，修改depthwise conv和pointwise conv网络结构和groups参数，可以训练。
+
+### 2020-07-27
+
+
+
+
 
 ### 2020-07-26
 
