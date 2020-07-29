@@ -24,8 +24,15 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 ### 2020-07-27
 
+- 复现 [mobileNetV2_SSD](https://github.com/ZhongyuanW/SSD_mobilenetv2-with-Focal-loss/)，预训练COCO2017预训练模型，更改class数量(80+1，1为负样本)；
+- Facebook为PyTorch的可视化工具 [visdom](https://zhuanlan.zhihu.com/p/34692106) 进行训练loss可视化，开启visdom服务，然后连接ssh将服务器8097端口重定向，浏览器打开http://localhost:18097即可；
+```
+pip install visdom
 
+python -m visdom.server -p 8097 
 
+ssh -L 18097:127.0.0.1:8097 username@remote-server
+```
 
 
 ### 2020-07-26
