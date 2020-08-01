@@ -17,6 +17,15 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 - [七月第四周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-07-W4.md)
 
 
+
+
+### 2020-07-29
+
+- 查看文件夹内文件总数数和各个子文件夹内的文件数 [code](https://github.com/Liuhongzhi2018/AiRiA/blob/master/Source/count.sh)
+
+![display](https://github.com/Liuhongzhi2018/AiRiA/blob/master/Source/files_count.png)
+
+
 ### 2020-07-28
 
 - 更改学习率策略[90,120,180]，epoch 156测试结果 mAP 达到0.183；
