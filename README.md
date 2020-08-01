@@ -16,10 +16,20 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 - [七月第三周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-07-W3.md)
 - [七月第四周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-07-W4.md)
 
+### 2020-07-31
+
+- TensorFlow模型 转 PyTorch模型，代码梳理 [node 可视化](https://github.com/Liuhongzhi2018/AiRiA/blob/master/Source/node_visual.py)，[ckpt转h5模型](https://github.com/Liuhongzhi2018/AiRiA/blob/master/Source/transfer2h5_model.py)，[ckpt转pth模型](https://github.com/Liuhongzhi2018/AiRiA/blob/master/Source/save_pth_model)，
+
+```python
+python save_pth_model.py --infile=./pretrained/ssdlite_mobilenet_v2_coco_2018_05_09/model.ckpt
+```
+
+- 实验，加载loc参数，配置文件config与MV\_SSD\_lr\_320.py相同。
+
 
 ### 2020-07-30
 
-- 选择合适的行人检测器 [code](https://github.com/ultralytics/yolov3) [weights](https://drive.google.com/drive/folders/1LezFG5g3BCW6iYaV89B2i64cqEUZD7e0)，对pan\_pa 和safe\_hat的persons类进行检测并crop出合适区域，然后进行数据清洗。
+- 选择合适的行人检测器 [code](https://github.com/ultralytics/yolov3) 和 [weights](https://drive.google.com/drive/folders/1LezFG5g3BCW6iYaV89B2i64cqEUZD7e0)，对pan\_pa 和safe\_hat的persons类进行检测并crop出合适区域，然后进行数据清洗。
 
 - TensorFlow Model Garden [link](https://github.com/tensorflow/models) 中COCO-trained models [link](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1_detection_zoo.md) 包含了 ssdlite\_mobilenet\_v2\_coco [weights](http://download.tensorflow.org/models/object_detection/ssdlite_mobilenet_v2_coco_2018_05_09.tar.gz)，COCO mAP 22与 [paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Sandler_MobileNetV2_Inverted_Residuals_CVPR_2018_paper.pdf) 指标接近。
 
