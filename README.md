@@ -17,6 +17,19 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 - [七月第四周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-07-W4.md)
 - [七月第五周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-07-W5.md)
 
+### 2020-08-01
+
+- 搭建Tensorflow Object Detection API合适的环境，学会安装和使用，编写inference [code](https://github.com/Liuhongzhi2018/AiRiA/blob/master/Source/inference_demo.py)进行测试；
+
+- 编写代码 [code](https://github.com/Liuhongzhi2018/AiRiA/blob/master/Source/model_graph.py)，用Tensorboard 对 Tensorflow pretrained model (*.pb)进行可视化；
+```
+(remote-server) tensorboard --logdir=viusal_logs --port=6006
+(local) ssh -L 16006:127.0.0.1:6006 zhuminchen@172.10.60.151
+(local) http://localhost:16006/
+```
+![vis](https://github.com/Liuhongzhi2018/AiRiA/blob/master/Source/model_graph.png)
+
+- 根据可视化的图网络结构，修改MobileNetV2_SSD代码。
 
 
 
