@@ -22,6 +22,8 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 - 另一个实验将backbone部分中extra layers由vanilla conv改为Inverted，修改forward函数满足shape匹配；
 
+- 之前尝试过TensorFlow转PyTorch模型，这篇可以尝试 [link](https://www.jianshu.com/p/0a61caeb693b)；
+
 - tmux鼠标滚动方法：
 ```
 ctrl+B
