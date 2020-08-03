@@ -11,11 +11,16 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 > 学习计划表 -> [SCHEDULE](https://github.com/Liuhongzhi2018/AiRiA/blob/master/SCHEDULE.md)
 
-### 2020-07
+### 2020-08
 
-- [七月第三周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-07-W3.md)
-- [七月第四周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-07-W4.md)
-- [七月第五周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-07-W5.md)
+- [八月第一周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-08-W1.md)
+
+
+### 2020-08-02
+
+- 根据Tensorboard可视化的网络结构进行分析；
+
+- 修改MobileNetV2_SSD代码的SSDHead部分。
 
 ### 2020-08-01
 
@@ -31,6 +36,12 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 - 根据可视化的图网络结构，修改MobileNetV2_SSD代码。
 
+
+### 2020-07
+
+- [七月第三周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-07-W3.md)
+- [七月第四周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-07-W4.md)
+- [七月第五周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-07-W5.md)
 
 
 ### 2020-07-31
