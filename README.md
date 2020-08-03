@@ -20,7 +20,14 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 - 采用新SSDHead并加载wconv pretrained model，epoch 174时mAP达到0.19。
 
-- 另一个实验将backbone部分中extra layers由vanilla conv改为Inverted，修改forward函数满足shape匹配。
+- 另一个实验将backbone部分中extra layers由vanilla conv改为Inverted，修改forward函数满足shape匹配；
+
+- tmux鼠标滚动方法：
+```
+ctrl+B
+直接按[键 可滚动
+q键 退出
+```
 
 
 ### 2020-08-02
