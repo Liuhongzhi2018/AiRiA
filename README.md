@@ -16,11 +16,18 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 - [八月第一周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-08-W1.md)
 
 
+### 2020-08-03
+
+- 采用新SSDHead并加载wconv pretrained model，epoch 174时mAP达到0.19。
+
+- 另一个实验将backbone部分中extra layers由vanilla conv改为Inverted，修改forward函数满足shape匹配。
+
+
 ### 2020-08-02
 
-- 根据Tensorboard可视化的网络结构进行分析；
+- 根据Tensorboard可视化的网络结构，进行分析；
 
-- 修改MobileNetV2_SSD代码的SSDHead部分。
+- 修改MobileNetV2_SSD代码的SSDHead部分，用新SSDHead检测头和两个backbone进行实验。
 
 ### 2020-08-01
 
