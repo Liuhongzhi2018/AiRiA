@@ -17,7 +17,7 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 ### 2020-08-04
 
-- 将MobileNetV2\_SSD代码push到研究院GitLab [项目](http://172.10.60.219/zhaoxin/Slim_Airiacvlib/tree/mv2ssd)
+- 将MobileNetV2\_SSD代码push到研究院GitLab项目的新建 [分支](http://172.10.60.219/zhaoxin/Slim_Airiacvlib/tree/mv2ssd)
 
 - 用行人检测器从爬取的图像中crop出person类。
 
