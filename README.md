@@ -15,6 +15,13 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 - [八月第一周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-08-W1.md)
 
+### 2020-08-04
+
+- 将MobileNetV2\_SSD代码push到研究院GitLab [项目](http://172.10.60.219/zhaoxin/Slim_Airiacvlib/tree/mv2ssd)
+
+- 用行人检测器从爬取的图像中crop出person类。
+
+
 
 ### 2020-08-03
 
