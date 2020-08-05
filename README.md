@@ -15,12 +15,17 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 - [八月第一周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-08-W1.md)
 
+### 2020-08-05
+
+- 修改MobileNetV2\_SSD代码，迁移到AiriaCVLib框架，解决初始化权重和scores计算时的问题；
+
+- 安装并配置flake8进行代码检查 [参考](https://blog.csdn.net/BNK_along/article/details/84000953)，写规范简洁的代码，并push到GitLab指定项目的mv2ssd分支。
+
 ### 2020-08-04
 
 - 将MobileNetV2\_SSD代码push到研究院GitLab项目的新建 [分支](http://172.10.60.219/zhaoxin/Slim_Airiacvlib/tree/mv2ssd)
 
 - 用行人检测器从爬取的图像中crop出person类。
-
 
 
 ### 2020-08-03
