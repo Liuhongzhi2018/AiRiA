@@ -15,6 +15,19 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 - [八月第一周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-08-W1.md)
 
+### 2020-08-07
+
+- 定位代码中transfroms中MinIoURandomCrop问题，从master分支pull代码更新，恢复原先config文件注释部分进行训练；
+
+- 修改pretrained model中的Key值，用MV2_SSDLite_convert.py配置文件进行训练。
+
+
+### 2020-08-06
+
+- 定位代码中transfrom问题，暂时先注释config文件的相应部分进行训练；
+
+- Slim框架中训练的模型加载时需要修改key值。
+
 ### 2020-08-05
 
 - 修改MobileNetV2\_SSD代码，迁移到AiriaCVLib框架，解决初始化权重和scores计算时的问题；
