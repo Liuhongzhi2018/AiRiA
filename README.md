@@ -18,7 +18,7 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 ### 2020-08-08
 
-- 未使用框架中的ConvModule，conv和batchnorm分开，训练epoch 125测试结果为0.197，训练epoch 91测试结果为0.186，训练epoch 90测试结果为0.164；
+- 未使用框架中的ConvModule，conv和batchnorm分开，训练epoch 129测试结果为0.198，训练epoch 125测试结果为0.197，训练epoch 91测试结果为0.186，训练epoch 90测试结果为0.164；
 
 - 使用ConvModule，训练epoch 91测试结果为0.144；
 
