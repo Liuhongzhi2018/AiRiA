@@ -15,11 +15,18 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 - [八月第一周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-08-W1.md)
 
+
+### 2020-08-08
+
+- 未使用框架中的ConvModule，conv和batchnorm分开，训练epoch 125测试结果为0.197，训练epoch 91测试结果为0.186，训练epoch 90测试结果为0.164；
+
+- 使用ConvModule，训练epoch 91测试结果为0.144；
+
 ### 2020-08-07
 
 - 定位代码中transfroms中MinIoURandomCrop问题，从master分支pull代码更新，恢复原先config文件注释部分进行训练；
 
-- 修改pretrained model中的Key值，用MV2_SSDLite_convert.py配置文件进行训练。
+- 修改pretrained model预训练模型中的Key值，用MV2_SSDLite_convert.py配置文件进行训练。
 
 
 ### 2020-08-06
@@ -33,6 +40,10 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 - 修改MobileNetV2\_SSD代码，迁移到AiriaCVLib框架，解决初始化权重和scores计算时的问题；
 
 - 安装并配置flake8进行代码检查 [参考](https://blog.csdn.net/BNK_along/article/details/84000953)，写规范简洁的代码，并push到GitLab指定项目的mv2ssd分支。
+```
+"python.linting.flake8Enabled": true,
+"python.linting.pylintEnabled": false,
+```
 
 ### 2020-08-04
 
