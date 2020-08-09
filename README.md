@@ -16,6 +16,13 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 - [八月第一周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-08-W1.md)
 
 
+### 2020-08-09
+
+- 未使用框架中的ConvModule，conv和batchnorm分开，训练epoch 194测试结果为0.200，第一次结果mAP超过20；
+
+- 继续进行2个实验，均是从epoch 90开始训练，学习率step分别为[90,150,180]和[110,150,180]。
+
+
 ### 2020-08-08
 
 - 未使用框架中的ConvModule，conv和batchnorm分开，训练epoch 129测试结果为0.198，训练epoch 125测试结果为0.197，训练epoch 91测试结果为0.186，训练epoch 90测试结果为0.164；
