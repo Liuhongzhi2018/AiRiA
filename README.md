@@ -15,6 +15,12 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 - [八月第一周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-08-W1.md)
 
+### 2020-08-10
+
+- 未使用框架中的ConvModule，conv和batchnorm分开，学习率step设置为[110,150,180]，训练epoch 200测试结果为0.203，在COCO数据集上mAP达到20.3；学习率step设置为[110,150,180]，训练epoch 200测试结果为0.201，在COCO数据集上mAP达到20.1。
+
+- 继续进行两个实验，其中一个修改学习率step设置为[130,200,300]，另一个修改anchor\_ratios和basesize\_ratio\_range [0.3,0.9]。
+
 
 ### 2020-08-09
 
