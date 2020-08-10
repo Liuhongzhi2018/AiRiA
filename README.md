@@ -17,9 +17,29 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 ### 2020-08-10
 
-- 未使用框架中的ConvModule，conv和batchnorm分开，学习率step设置为[110,150,180]，训练epoch 200测试结果为0.203，在COCO数据集上mAP达到20.3；学习率step设置为[110,150,180]，训练epoch 200测试结果为0.201，在COCO数据集上mAP达到20.1。
+- 未使用框架中的ConvModule，conv和batchnorm分开，学习率step设置为[110,150,180]，训练epoch 200测试结果为0.203，在COCO数据集上mAP达到20.3；学习率step设置为[110,150,180]，训练epoch 200测试结果为0.201，在COCO数据集上mAP达到20.1；
 
-- 继续进行两个实验，其中一个修改学习率step设置为[130,200,300]，另一个修改anchor\_ratios和basesize\_ratio\_range [0.3,0.9]。
+- 继续进行两个实验，其中一个修改学习率step设置为[130,200,300]，另一个修改anchor\_ratios和basesize\_ratio\_range [0.3,0.9]；
+
+- 从GitLab上clone全部的分支。
+```
+[zhuminchen@172-10-60-151 liuhongzhi]$ git clone --mirror remote.git
+克隆到裸版本库 'remote.git'...
+Username for 'http://xxx.xx.xx.xxx': aoluming
+Password for 'http://aoluming@xxx.xx.xx.xxx':
+remote: Counting objects: 9249, done.
+remote: Compressing objects: 100% (160/160), done.
+remote: Total 9249 (delta 112), reused 68 (delta 32)
+接收对象中: 100% (9249/9249), 3.74 GiB | 66.64 MiB/s, done.
+处理 delta 中: 100% (6470/6470), done.
+[zhuminchen@172-10-60-151 liuhongzhi]$ cd remote.git/
+[zhuminchen@172-10-60-151 airiacvlib.git]$ git config --bool core.bare false
+[zhuminchen@172-10-60-151 airiacvlib.git]$ git branch
+* master
+  mobilefacenet
+  mobilefacenet_dev
+  mv2ssd_dev
+```
 
 
 ### 2020-08-09
@@ -33,7 +53,8 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 - 未使用框架中的ConvModule，conv和batchnorm分开，训练epoch 129测试结果为0.198，训练epoch 125测试结果为0.197，训练epoch 91测试结果为0.186，训练epoch 90测试结果为0.164；
 
-- 使用ConvModule，训练epoch 91测试结果为0.144；
+- 使用ConvModule，训练epoch 91测试结果为0.144。
+
 
 ### 2020-08-07
 
