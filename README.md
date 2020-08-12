@@ -15,6 +15,12 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 - [八月第一周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-08-W1.md)
 
+### 2020-08-12
+
+- 学习率设置为[130,200,300]，训练epoch 284测试结果为0.206；
+
+- 修改voc\_to\_coco的转换代码，实现xml文件转换为json文件。
+
 ### 2020-08-10
 
 - 未使用框架中的ConvModule，conv和batchnorm分开，学习率step设置为[110,150,180]，训练epoch 200测试结果为0.203，在COCO数据集上mAP达到20.3；学习率step设置为[110,150,180]，训练epoch 200测试结果为0.201，在COCO数据集上mAP达到20.1；
