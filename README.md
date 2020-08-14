@@ -15,6 +15,14 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 - [八月第一周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-08-W1.md)
 
+### 2020-08-13
+
+- 实验内容从151服务器迁移到新服务器，更新repo代码并在2080Ti上进行训练，测试epoch 1结果为0.048；
+
+- 通过xml文件，在摩托车头盔样例集上对标注类别和位置进行可视化；
+
+- 修改DataLoader代码，可以加载训练集。
+
 ### 2020-08-12
 
 - 学习率设置为[130,200,300]，训练epoch 284测试结果为0.206；
