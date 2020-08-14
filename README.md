@@ -17,7 +17,7 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 ### 2020-08-13
 
-- 实验内容从151服务器迁移到新服务器，更新repo代码并在2080Ti上进行训练，测试epoch 1结果为0.048；
+- 实验内容从151服务器迁移到新服务器，更新repo代码并在2080Ti上进行训练，测试epoch 1结果为0.048，mAP为4.8；
 
 - 通过xml文件，在摩托车头盔样例集上对标注类别和位置进行可视化；
 
