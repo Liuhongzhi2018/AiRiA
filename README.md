@@ -15,6 +15,19 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 - [八月第一周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-08-W1.md)
 
+### 2020-08-15
+
+- 修改dataloader代码可以加载VOC格式数据集，数据清洗，总计训练集6031张，有效数量6025张，在云平台上跑通motor-head-detect代码，可以正常训练；
+
+- 在新服务上用两卡训练MobileNet_SSD，训练160 epoch，测试结果0.171，mAP为17.1。
+
+### 2020-08-14
+
+- 在本地服务器训练和测试motor-head-detect样例数据集，修改dataloader部分代码；
+
+- 在云平台测试所需要的依赖包，并导出requirements.txt和DockerFile，建好训练镜像。
+
+
 ### 2020-08-13
 
 - 实验内容从151服务器迁移到新服务器，更新repo代码并在2080Ti上进行训练，测试epoch 1结果为0.048，mAP为4.8；
