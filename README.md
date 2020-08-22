@@ -15,6 +15,14 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 - [八月第一周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-08-W1.md)
 
+
+### 2020-08-22
+
+- 参加ECV2020，老鼠赛道暂时第8，火焰赛道暂时第13；
+
+- 在新服务上用两卡训练MobileNet_SSD，训练300 epoch，测试结果0.207，mAP为207。
+
+
 ### 2020-08-15
 
 - 修改dataloader代码可以加载VOC格式数据集，数据清洗，总计训练集6031张，有效数量6025张，在云平台上跑通motor-head-detect代码，可以正常训练；
