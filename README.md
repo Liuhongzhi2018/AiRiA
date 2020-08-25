@@ -16,6 +16,15 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 - [八月第一周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-08-W1.md)
 
 
+### 2020-08-25
+
+- 在新服务上用两卡训练MobileNet_SSD，训练323 epoch，测试结果0.208，mAP为208；
+
+- 编写代码读取pkl文件并写入txt文件 [code](https://github.com/Liuhongzhi2018/AiRiA/blob/master/Source/pkl2txt.py)；
+
+- 编写代码将embedding内容写入pkl文件 [code](https://github.com/Liuhongzhi2018/AiRiA/blob/master/Source/gpkl.py)。
+
+
 ### 2020-08-22
 
 - 参加ECV2020，老鼠赛道暂时第8，火焰赛道暂时第13；
