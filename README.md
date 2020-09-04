@@ -11,10 +11,19 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 > 学习计划表 -> [SCHEDULE](https://github.com/Liuhongzhi2018/AiRiA/blob/master/SCHEDULE.md)
 
+### 2020-09
+
+- [九月第一周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-09-W1.md)
+
+### 2020-09-04
+
+- 参加DataFountain比赛AI+行人重识别，目前初赛阶段8月15-10月23日；
+
+- 编写代码 [code](https://github.com/Liuhongzhi2018/AiRiA/blob/master/Source/statistic.py) 计算各ID的图片个数，筛选出ID图片数 < 4，ID图片数 = 4 和ID图片数 > 4的Person ID。
+
 ### 2020-08
 
 - [八月第一周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-08-W1.md)
-
 
 ### 2020-08-25
 
