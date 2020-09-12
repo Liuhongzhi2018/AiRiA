@@ -15,6 +15,12 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 - [九月第一周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-09-W1.md)
 
+### 2020-09-12
+
+- 参加DataFountain比赛AI+行人重识别，用全部train数据用来训练原始代码，epoch 50的测试acc为0.363；
+
+- 修改配置文件，NUM_INSTENCE=8->4，epoch 50的测试acc为0.451。
+
 ### 2020-09-04
 
 - 参加DataFountain比赛AI+行人重识别，目前初赛阶段8月15-10月23日；
