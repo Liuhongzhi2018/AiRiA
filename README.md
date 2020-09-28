@@ -15,6 +15,12 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 - [九月第一周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-09-W1.md)
 
+### 2020-09-27
+
+- BBGao中文OCR识别，尝试PaddlePaddle的PPOCR [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) 和 [中文OCR](https://github.com/pengcao/chinese_ocr)；
+
+- 要求可以进行对水平和扭曲文字分类。
+
 ### 2020-09-12
 
 - 参加DataFountain比赛AI+行人重识别，用全部train数据用来训练原始代码，epoch 50的测试acc为0.363；
