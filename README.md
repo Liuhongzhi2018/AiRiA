@@ -11,13 +11,17 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 > 学习计划表 -> [SCHEDULE](https://github.com/Liuhongzhi2018/AiRiA/blob/master/SCHEDULE.md)
 
+### 2020-10
+
+- [十月第二周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-10-W2.md)
+
 
 ### 2020-10-10
 
 - 将之前用于布控球多属性识别的标注工具开源 [Attribute_tool](https://github.com/Liuhongzhi2018/Person_ReID/tree/master/Attribute_tool) ；
 
 - 暗光视频拆帧与合并代码 [单个视频](https://github.com/Liuhongzhi2018/AiRiA/blob/master/Source/split_onevideo.py) 和 [多个视频](https://github.com/Liuhongzhi2018/AiRiA/blob/master/Source/split_video.py)。
-```
+```bash
 (py37pt11) [intern2@localhost LowL]$ ffmpeg -f image2 -i high_ori/final_result/YI015601_crop_%d.jpg -vcodec mpeg4 -b:v 5915k high_ori.mp4
 ```
 
