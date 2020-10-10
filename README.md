@@ -21,6 +21,10 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 - 要求可以进行对水平和扭曲文字分类。
 
+### 2020-09-14
+
+- 在人力资源部下发给研究院的关于表扬2020年8月优秀员工的通报中，给予通报表扬。
+
 ### 2020-09-12
 
 - 参加DataFountain比赛AI+行人重识别，用全部train数据用来训练原始代码，epoch 50的测试acc为0.363；
