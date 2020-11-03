@@ -15,6 +15,10 @@ Nanjing Artificial Intelligence Chip Reseatch,  Institute of Automation，Chines
 
 - [十月第二周](https://github.com/Liuhongzhi2018/AiRiA/blob/master/WorkLog/2020-10-W2.md)
 
+### 2020-10-16
+
+- 完成工作交接，结束三个月实习。
+
 
 ### 2020-10-10
 
